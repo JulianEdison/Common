@@ -50,7 +50,7 @@ namespace JulianEdisonArt
 
         public int Random()
         {
-            return Ju.Random(Min, Max);
+            return JuRandom.Random(Min, Max);
         }
 
         void CheckMaximized()

@@ -85,7 +85,7 @@ namespace JulianEdisonArt
         /// </summary>
         public float Random()
         {
-            return Ju.Random(Min, Max);
+            return JuRandom.Random(Min, Max);
         }
 
         void CheckMaximized()

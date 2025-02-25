@@ -9,10 +9,12 @@ namespace JulianEdisonArt
         /// The minimum value
         /// </summary>
         public float Min;
+
         /// <summary>
         /// The current value
         /// </summary>
         public float Value;
+
         /// <summary>
         /// The maximum value
         /// </summary>
@@ -82,7 +84,7 @@ namespace JulianEdisonArt
         /// </summary>
         public float Random()
         {
-            return Ju.Random(Min, Max);
+            return JuRandom.Random(Min, Max);
         }
 
         /// <summary>
